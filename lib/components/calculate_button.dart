@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-
-import 'app_colors.dart';
+import '../utils/app_colors.dart';
 
 class CalculateButton extends StatelessWidget {
   const CalculateButton({
     super.key,
   });
-
   @override
   Widget build(BuildContext context) {
     return InkWell(
@@ -16,7 +14,7 @@ class CalculateButton extends StatelessWidget {
         child: Container(
           height: 50,
           width: double.infinity,
-          color: AppColor.redColor,
+          color: AppColor.buttonColor,
           child: Center(
             child: Text(
               'CALCULATE',
