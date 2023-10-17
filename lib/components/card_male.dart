@@ -16,10 +16,10 @@ class CardMale extends StatelessWidget {
         color: Colors.white24,
         child: Column(
           children: [
-            Icon(icon, size: 100),
+            Icon(icon, size: 80),
             Text(
               text,
-              style: TextStyle(fontSize: 30),
+              style: TextStyle(fontSize: 26),
             ),
           ],
         ),
